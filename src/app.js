@@ -24,3 +24,40 @@ app.get('/fires', (req, res) => {
         title: 'Fires'
     })
 })
+
+app.get('/dashboard', (req, res) => {
+    res.render('./interior/dashboard',  {
+        title: 'Dashboard'
+    })
+})
+
+app.get('/analytics', (req, res) => {
+    res.render('./interior/analytics',  {
+        title: 'Analytics'
+    })
+})
+
+app.get('/explore', (req, res) => {
+    res.render('./interior/explore',  {
+        title: 'Explore'
+    })
+})
+
+app.get('/settings', (req, res) => {
+    res.render('./interior/settings',  {
+        title: 'Settings'
+    })
+})
+
+app.get('/sparks', (req, res) => {
+    res.render('./interior/sparks',  {
+        title: 'Sparks'
+    })
+})
+
+// Serving up static assets
+app.use(express.static(path.join(__dirname, '../public')))
+
+app.listen(3000, () => {
+    console.log('Server is up on port 3000.')
+})

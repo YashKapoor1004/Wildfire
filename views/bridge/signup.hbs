@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Wildfire Sign Up</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/bridge/signup/signup.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="top">
+                <img class="wildfireImg" src="/bridge/login/logo.svg">
+                <div class="topText">
+                    <h1 class="title">Sign up for<span style="font-weight: bold; background: -webkit-linear-gradient(#EA5A09, #EE2F15); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"> Wildfire</span></h1>
+                    <p class="titleDesc">Welcome to the <span style="font-weight: bold;">new age of data acqusition. </span>Fill out the form below to get started using Wildfire.</p>
+                </div>
+            </div>
+            <div ="inputs">
+                <input class="fullName" placeholder="Full Name">
+                <input class="companyName" placeholder="Company Name">
+                <input id="emailAddress" class="emailAddress" placeholder="Email Address">
+                <input id="password" class="password" placeholder="Password" type="password">
+                <input class="passwordConfirm" placeholder="Confirm Password" type="password">
+                <img class="entryError" src="/bridge/login/entryError.svg">
+            </div>
+            <div class="buttons">
+                <button class="createAcct" onclick="signUp()">Create my account</button>
+            </div>
+            <div class="-or-">
+                <img class="leftOr" src="/bridge/login/leftOr.svg">
+                <h3 class="orTxt">OR</h3>
+                <img class="rightOr" src="/bridge/login/rightOr.svg">
+            </div>
+            <div class="bottomBtns">
+                <div class="googleBtn">
+                    <button class="google">Continue with Google</button>
+                    <img class="googleLogo" src="/bridge/login/googleLogo.svg">
+                </div>
+                <div class="githubBtn">
+                    <button class="github" >Continue with Github</button>
+                    <img class="githubLogo" src="/bridge/login/githubLogo.svg">
+                </div>
+            </div>
+            <p class="haveAcct">Already have an account? <span style="font-weight: bold; background: -webkit-linear-gradient(#EA5A09, #EE2F15); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Log in instead</span></p>
+        </div>
+        <script src="/bridge/signup/signup.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-functions.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-auth.js"></script>
+
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyBmrTAa1LnIbQeSiojCw6fT9bnas0_Rob4",
+      authDomain: "wildfire-7e594.firebaseapp.com",
+      projectId: "wildfire-7e594",
+      storageBucket: "wildfire-7e594.appspot.com",
+      messagingSenderId: "64460218098",
+      appId: "1:64460218098:web:3d795a221fec883e82ba6b",
+      measurementId: "G-GFK4PMQKEF"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const auth = firebase.auth();
+    const db = firebase.firestore();
+  </script>
+    </body>
+</html>
