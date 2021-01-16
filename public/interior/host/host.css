@@ -1,0 +1,1385 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    width: 1280px;
+    height: 689px;
+  }
+  
+  button {
+    font-family: "poppins";
+    outline: none;
+  }
+  
+  input {
+    outline: none;
+  }
+  
+  header {
+    display: flex;
+    width: 96%;
+    height: 12vh;
+    margin: auto;
+    align-items: center;
+  }
+  #sideBar{
+    position: absolute;
+    width: 248px;
+    height: 689px;
+    left: 0px;
+    top: 0px;
+    
+    background: #000634;
+  }
+#title{
+  position: absolute;
+left: 30.65%;
+right: 43.95%;
+top: 2.1%;
+bottom: 94.75%;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+#subTitle{
+  position: absolute;
+left: 30.65%;
+right: 6.85%;
+top: 5.25%;
+bottom: 92.39%;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+
+color: rgba(255, 255, 255, 0.5);
+}
+#logo{
+position: absolute;
+width: 48px;
+height: 48px;
+left: 20px;
+top: 11px;
+}
+.dashDiv{
+  position: absolute;
+  left: 14px;
+  right: 15px;
+  top: 89px;
+  bottom: 558px;
+  width: 219px;
+  height: 42px;
+
+
+  border-radius: 5px;
+  background: #6224E8;
+}
+
+.leftArrow{
+    position: absolute;
+    top: 22px;
+    right: 24px;
+}
+
+#hDash{
+  position: absolute;
+  left: 62px;
+  right: 40px;
+  top: 10px;
+  bottom: 12px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: white;
+}
+.lDash{
+  position: absolute;
+  left: 21px;
+  right: 180px;
+  top: 10px;
+  bottom: 215px;
+}
+.firesDiv{
+  position: absolute;
+  left: 14px;
+  right: 15px;
+  top: 141px;
+  bottom: 506px;
+  width: 219px;
+  height: 42px;
+  
+  border-radius: 5px;
+}
+
+.firesDiv:hover{
+    background-color:rgba(255, 255, 255, 0.15);;
+  }
+
+.hFires{
+  position: absolute;
+  left: 62px;
+  right: 119px;
+  top: 12px;
+  bottom: 11px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: rgba(255, 255, 255, 0.5);
+}
+.lFires{
+  position: absolute;
+left: 21px;
+right: 180px;
+top: 12px;
+bottom: 12px;
+}
+.analyticsDiv{
+  position: absolute;
+  left: 14px;
+  right: 15px;
+  top: 193px;
+  bottom: 454px;
+  width: 219px;
+  height: 42px;
+  
+  background: #000634;
+  border-radius: 5px;
+}
+.lAnalytics{
+  position: absolute;
+  left: 21px;
+  right: 180px;
+  top: 11px;
+  bottom: 12px;
+  
+}
+.hAnalytics{
+  position: absolute;
+  left: 62px;
+  right: 84px;
+  top: 12px;
+  bottom: 11px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: rgba(255, 255, 255, 0.5);
+  
+}
+.exploreDiv{
+  position: absolute;
+  left: 14px;
+  right: 15px;
+  top: 247px;
+  bottom: 400px;
+  width: 219px;
+  height: 42px;
+  
+  background: #000634;
+  border-radius: 5px;
+}
+.lExplore{
+  position: absolute;
+  left: 21px;
+  top: 11px;
+  right: 180px;
+  bottom: 54px;
+
+}
+.hExplore{
+  position: absolute;
+  left: 62px;
+  right: 98px;
+  top: 12px;
+  bottom:11px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: rgba(255, 255, 255, 0.5);
+}
+.settingsDiv{
+  position: absolute;
+  left: 14px;
+  right: 15px;
+  top: 301px;
+  bottom: 346px;
+  width: 219px;
+  height: 42px;
+  
+  background: #000634;
+  border-radius: 5px;
+}
+.lSettings{
+  position: absolute;
+  left: 21px;
+  right: 180px;
+  top: 11px;
+  bottom: 1px;
+
+}
+.hSettings{
+
+  position: absolute;
+  left: 63px;
+  right: 91px;
+  top: 11px;
+  bottom: 12px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: rgba(255, 255, 255, 0.5);
+}
+.profPic{
+  position: absolute;
+  left: 22px;
+  right: 186px;
+  top: 630.65px;
+  bottom: 18.35px;
+  
+  background: url(photo-1529665253569-6d01c0eaf7b6.jpg);
+  border-radius: 100px;
+}
+.name{
+  position: absolute;
+  left: 77px;
+  right: 65px;
+  top: 636px;
+  bottom: 34.1px;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  
+  color: #FFFFFF;
+}
+.role{
+  position: absolute;
+  left: 77px;
+  right: 95px;
+  top: 656px;
+  bottom: 19.44px;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.topBar{
+    position: absolute;
+    width: 1032px;
+    height: 65px;
+    left: 248px;
+    top: 0px;
+    
+    background: white;
+  }
+
+.bottomLine{
+    position: absolute;
+    width: 1032px;
+    height: 0px;
+    left: 0px;
+    top: 65px;
+
+    border: 1px solid #E5E5E5;
+}
+
+.firesHead{
+  position: absolute;
+  left: 42px;
+  right: 947px;
+  top: 22px;
+  bottom: 65px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  
+  
+  color: #000634;
+}
+.hHOme{
+  position: absolute;
+  left: 42px;
+  right: 956px;
+  top: 78px;
+  bottom: 16px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  
+  text-transform: capitalize;
+  
+  color: #702DFF;
+}
+.hSparks{
+  position: absolute;
+  left: 114px;
+  right: 878px;
+  top: 78px;
+  bottom: 16px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  
+  text-transform: capitalize;
+  
+  color: #B9C0C9;
+}
+.hData{
+  position: absolute;
+  left: 196px;
+  right: 809px;
+  top: 78px;
+  bottom: 16px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  
+  text-transform: capitalize;
+  
+  color: #B9C0C9;
+}
+.hPreferences{
+  position: absolute;
+  left: 262px;
+  right: 700px;
+  top: 78px;
+  bottom: 16px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  
+  text-transform: capitalize;
+  
+  color: #B9C0C9;
+}
+.upgradeDiv{
+  
+  background: #6224E8;
+  border-radius: 5px;
+
+  position: absolute;
+  left: 672px;
+  right: 235px;
+  top: 14px;
+  bottom: 58px;
+  position: absolute;
+  width: 125px;
+  height: 37px;
+
+}
+.upgrade{
+  position: absolute;
+  left: 47px;
+  top: 9px;
+  right: 20px;
+  bottom: 11px;
+  
+  color: #FFFFFF;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  
+}
+.chat{
+  position: absolute;
+  left: 834px;
+  right: 163px;
+  top: 17px;
+  bottom: 57px;
+  border-radius: 5px;
+}
+.bell{
+  position: absolute;
+  left: 906px;
+  right: 107.84px;
+  top: 22px;
+  bottom: 67px;
+}
+.pfp2{
+  position: absolute;
+  left: 950px;
+  right: 52px;
+  top: 14px;
+  bottom: 65px;
+  border-radius: 100px;
+}
+.upgradeP{
+  position: absolute;
+  left: 17px;
+  right: 94px;
+  top: 9px;
+  bottom: 10px;
+  
+}
+.chatP{
+  position: absolute;
+  left: 7px;
+  right: 5.98px;
+  top: 7px;
+  bottom: 8px;
+}
+.plus{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1187px;
+  top: 603px;
+  border-radius: 50%;
+  
+  background: #702DFF;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+.plusimg{
+  position: absolute;
+  left: 17px;
+  right: 17px;
+  top: 17px;
+  bottom: 17px;
+
+}
+.upgradeDiv:hover{
+  background-color: #DC481A;
+}
+.line{
+  position: absolute;
+  left: 35px;
+  top: 109px;
+  right: 945px;
+}
+.arroww{
+  position: absolute;
+  left: 1003px;
+  right: 18px;
+  top: 29px;
+  bottom: 74px;
+}
+.filter{
+  position: absolute;
+  left: 827px;
+  top: 70px;
+}
+.dot{
+  position: absolute;
+  left: 215px;
+  right: 29px;
+  top: 648.31px;
+  bottom: 26.22px;
+}
+
+.totalNew{
+    position: absolute;
+    width: 195px;
+    height: 92px;
+    left: 272px;
+    top: 91px;
+
+    background: #000634;
+    border: 1px solid rgba(185, 192, 201, 0.4);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.txt1{
+    position: absolute;
+    width: 121px;
+    height: 12px;
+    left: 20px;
+    top: 18px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: white;
+}
+
+.twoHundred{
+    position: absolute;
+    width: 56px;
+    height: 34px;
+    left: 20px;
+    top: 44px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    color: white;
+}
+
+.percentage1{
+    position: absolute;
+    width: 59px;
+    height: 19px;
+    left: 85px;
+    top: 53px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #41D39F;
+}
+
+.plusArrow{
+    position: absolute;
+    top: 18px;
+    left: 167px;
+}
+
+.responseRate{
+    position: absolute;
+    width: 195px;
+    height: 92px;
+    left: 493px;
+    top: 91px;
+
+    border: 1px solid rgba(185, 192, 201, 0.4);
+    box-sizing: border-box;
+    background: #000634;
+    border-radius: 5px;
+}
+
+.txt2{
+    position: absolute;
+    width: 82px;
+    height: 12px;
+    left: 20px;
+    top: 18px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+
+    color:white;
+}
+
+.thirtypct{
+    position: absolute;
+    width: 86px;
+    height: 34px;
+    left: 20px;
+    top: 44px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: white;
+}
+
+.percentage2{
+    position: absolute;
+    width: 55px;
+    height: 19px;
+    left: 117px;
+    top: 53px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #EE2F15;
+}
+
+.plusArrow2{
+    position: absolute;
+    top: 18px;
+    left: 166px;
+}
+
+.totalViews{
+    position: absolute;
+    width: 195px;
+    height: 92px;
+    left: 714px;
+    top: 91px;
+    
+    background: #000634;
+    border-radius: 5px;
+}
+
+.txt3{
+    position: absolute;
+    width: 68px;
+    height: 12px;
+    left: 20px;
+    top: 18px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: #FFFFFF;
+}
+
+.sixHundred{
+    position: absolute;
+    width: 51px;
+    height: 34px;
+    left: 20px;
+    top: 44px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.percentage3{
+    position: absolute;
+    width: 61px;
+    height: 19px;
+    left: 84px;
+    top: 52px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #41D39F;
+}
+
+.plusArrow3{
+    position: absolute;
+    top: 18px;
+    left: 162px;
+}
+
+.dailyResponses{
+    position: absolute;
+    width: 637px;
+    height: 254px;
+    left: 272px;
+    top: 213px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(185, 192, 201, 0.4);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.txt4{
+    position: absolute;
+    width: 141px;
+    height: 15px;
+    left: 20px;
+    top: 18px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #000634;
+}
+
+.rightSideCharts{
+    position: absolute;
+    width: 316px;
+    height: 376px;
+    left: 935px;
+    top: 91px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(185, 192, 201, 0.4);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.donutChart{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 30px;
+    top: 23px;
+}
+
+.totalResponses{
+    position: absolute;
+    width: 132px;
+    height: 17px;
+    left: 146px;
+    top: 48px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #000634;
+}
+
+.numerator{
+    position: absolute;
+    width: 65px;
+    height: 29px;
+    left: 146px;
+    top: 78px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: #000634;    
+}
+
+.denominator{
+    position: absolute;
+    width: 49px;
+    height: 17px;
+    left: 219px;
+    top: 86px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    
+    color: #000634;
+}
+
+.conferencing{
+    position: absolute;
+    width: 244px;
+    height: 15px;
+    left: 21px;
+    top: 146px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #000634;
+}
+
+.conferencingData{
+    position: absolute;
+    width: 38px;
+    height: 10px;
+    left: 21px;
+    top: 166px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+    
+    
+    color: #000634;
+}
+
+.redGraph{
+    position: absolute;
+    width: 267px;
+    height: 6px;
+    left: 21px;
+    top: 179px;
+}
+
+.funeral{
+    position: absolute;
+    width: 170px;
+    height: 15px;
+    left: 21px;
+    top: 205px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #000634;
+}
+
+.funeralData{
+    position: absolute;
+    width: 37px;
+    height: 10px;
+    left: 21px;
+    top: 224px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+    
+    
+    color: #000634;
+}
+
+.yellowGraph{
+    position: absolute;
+    width: 267px;
+    height: 6px;
+    left: 21px;
+    top: 237px;
+}
+
+.device{
+    position: absolute;
+    width: 179px;
+    height: 15px;
+    left: 21px;
+    top: 262px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #000634;    
+}
+
+.deviceData{
+    position: absolute;
+    width: 38px;
+    height: 10px;
+    left: 21px;
+    top: 281px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+    
+    
+    color: #000634;
+}
+
+.blackGraph{
+    position: absolute;
+    width: 267px;
+    height: 6px;
+    left: 21px;
+    top: 294px;
+}
+
+.audio{
+    position: absolute;
+    width: 124px;
+    height: 15px;
+    left: 21px;
+    top: 319px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #000634;
+}
+
+.audioData{
+    position: absolute;
+    width: 36px;
+    height: 10px;
+    left: 21px;
+    top: 338px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+    
+    
+    color: #000634;
+}
+
+.tealGraph{
+    position: absolute;
+    width: 267px;
+    height: 6px;
+    left: 21px;
+    top: 351px;
+}
+
+.subscriptionCharges{
+    position: absolute;
+    width: 246px;
+    height: 175px;
+    left: 272px;
+    top: 491px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(185, 192, 201, 0.4);
+    border-radius: 5px;
+}
+
+.subscriptionTitleTxt{
+    position: absolute;
+    width: 126px;
+    height: 15px;
+    left: 18px;
+    top: 13px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #000634;
+}
+
+.duePayment{
+    position: absolute;
+    width: 124px;
+    height: 10px;
+    left: 18px;
+    top: 33px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+
+
+    color: #000634;
+}
+
+.total{
+    position: absolute;
+    width: 124px;
+    height: 10px;
+    left: 173px;
+    top: 15px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+
+
+    color: #000634;
+}
+
+.bal{
+    position: absolute;
+    width: 57px;
+    height: 17px;
+    left: 173px;
+    top: 27px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #000634;
+}
+
+.xAxis{
+    position: absolute;
+    width: 162px;
+    height: 10px;
+    left: 42px;
+    top: 155px;
+}
+
+.yAxis{
+    position: absolute;
+    width: 17px;
+    height: 125px;
+    left: 16px;
+    top: 40px;
+}
+
+.subscriptionChart{
+    position: absolute;
+    width: 156px;
+    height: 89px;
+    left: 48px;
+    top: 60px;
+}
+
+.popResponse{
+    position: absolute;
+    width: 359px;
+    height: 175px;
+    left: 550px;
+    top: 491px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(185, 192, 201, 0.4);
+    border-radius: 5px;
+}
+
+.popResponseTxt{
+    position: absolute;
+    width: 172px;
+    height: 15px;
+    left: 21px;
+    top: 15px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #000634;
+}
+
+.popResponseChart{
+    position: absolute;
+    width: 152px;
+    height: 152px;
+    left: 0px;
+    top: 23px;
+}
+
+.covidKey{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 160px;
+    top: 49px;
+
+    background: #EE3C15;
+    border-radius: 2px;
+}
+.covidTxt{
+    position: absolute;
+    width: 104px;
+    height: 15px;
+    left: 193px;
+    top: 49px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #000634;
+}
+
+.techKey{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 160px;
+    top: 79px;
+
+    background: #41D39F;
+    border-radius: 2px;
+}
+
+.techTxt{
+    position: absolute;
+    width: 67px;
+    height: 15px;
+    left: 193px;
+    top: 79px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #000634;
+}
+
+.foodKey{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 160px;
+    top: 109px;
+
+    background: #EEA415;
+    border-radius: 2px;
+}
+
+.foodTxt{
+    position: absolute;
+    width: 138px;
+    height: 15px;
+    left: 193px;
+    top: 109px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #000634;
+}
+
+.healthKey{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 160px;
+    top: 139px;
+    
+    background: #702DFF;
+    border-radius: 2px;
+}
+
+.healthTxt{
+    position: absolute;
+    width: 103px;
+    height: 15px;
+    left: 193px;
+    top: 139px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #000634;
+}
+
+.automationTrig{
+    position: absolute;
+    width: 316px;
+    height: 175px;
+    left: 935px;
+    top: 491px;
+
+    background: #0217B8;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.robot{
+    position: absolute;
+    top: 17px;
+    left: 137px;
+}
+
+.noTrig{
+    position: absolute;
+    width: 240px;
+    height: 17px;
+    left: 35px;
+    top: 64px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.metricNoti{
+    position: absolute;
+    width: 204px;
+    height: 24px;
+    left: 53px;
+    top: 91px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.getStartedAuto{
+    position: absolute;
+    width: 197px;
+    height: 27px;
+    left: 58px;
+    top: 129px;
+
+    background: #FFFFFF;
+    border-radius: 2px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 15px;
+    border: none;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #0217B8;
+}
+
+.settingsDiv:hover{
+  background-color:rgba(255, 255, 255, 0.15);;
+}
+.exploreDiv:hover{
+  background-color:rgba(255, 255, 255, 0.15);;
+}
+.analyticsDiv:hover{
+  background-color:rgba(255, 255, 255, 0.15);;
+}
+.chat:hover{
+  background-color: rgba(0, 0, 0, 0.04);;
+}
+.bell:hover{
+  background-color: rgba(0, 0, 0, 0.04);;
+}
+
+.hoverr{
+  position: absolute;
+  left: 199px;
+  right: 14px;
+  top: 637px;
+  bottom: 17px;
+
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  display: none;
+}
+.hover:hover .hoverr {
+  display: block;
+ }
