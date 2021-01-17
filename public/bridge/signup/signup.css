@@ -1,0 +1,270 @@
+input:focus{
+    border: 1px solid #EE2F15;
+    box-shadow: 0px 0px 0px 4px rgba(238, 47, 21, 0.1);
+    border-radius: 7px;
+    outline: none;
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+.wildfireImg{
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    left: 25px;
+    top: 31px;
+}
+
+.title{
+    position: absolute;
+    top: 53px;
+    bottom: 652px;
+    left: 457px;
+    right: 457px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 57px;
+    /* identical to box height */
+
+    color: #000847;
+}
+
+.titleDesc{
+    position: absolute;
+    width: 467px;
+    height: 44px;
+    left: 402px;
+    top: 132px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #000847;
+}
+
+.fullName{
+    position: absolute;
+    width: 264px;
+    height: 55px;
+    left: 364px;
+    top: 210px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    padding-left: 15px;
+    border: 1px solid #C3CAD3;
+}
+
+.fullName:focus {
+    border: 1px solid #EE2F15;
+    box-shadow: 0px 0px 0px 4px rgba(238, 47, 21, 0.1);
+}
+
+.fullName::placeholder{
+    color: #C3CAD3;
+}
+
+.companyName{
+    position: absolute;
+    width: 264px;
+    height: 55px;
+    left: 652px;
+    top: 210px;
+    background: #FFFFFF;
+    border: 1px solid #C3CAD3;
+    border-radius: 7px;
+    padding-left: 15px;
+    
+}
+.companyName::placeholder{
+    color: #C3CAD3;
+}
+
+.emailAddress{
+    position: absolute;
+    width: 552px;
+    height: 55px;
+    left: 364px;
+    top: 288px;
+    background: #FFFFFF;
+    border: 1px solid #C3CAD3;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding-left: 15px;
+}
+
+.emailAddress::placeholder{
+    color: #C3CAD3;
+}
+
+.password{
+    position: absolute;
+    top: 366px;
+    left: 364px;
+    width: 264px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #C3CAD3;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding-left: 15px;
+}
+
+.password::placeholder{
+    color: #C3CAD3;
+}
+
+.passwordConfirm{
+    position: absolute;
+    top: 366px;
+    right: 364px;
+    width: 264px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #C3CAD3;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding-left: 15px;
+}
+
+.passwordConfirm::placeholder{
+    color: #C3CAD3;
+}
+
+.entryError{ 
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 937px;
+    top: 217px;
+}
+
+.checkBox{
+    position: absolute;
+    top: 440px;
+    left: 377px;
+}
+
+.leftOr{
+    position: absolute;
+    width: 250px;
+    height: 0px;
+    left: 364px;
+    top: 566px;
+
+    border: 1px solid #C3CAD3;
+}
+
+.rightOr{
+    position: absolute;
+    width: 250px;
+    height: 0px;
+    right: 364px;
+    top: 566px;
+
+    border: 1px solid #C3CAD3;
+}
+
+.orTxt{
+    position: absolute;
+    right: 630px;
+    top: 556px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #C3CAD3;
+}
+
+.createAcct{
+    position: absolute;
+    width: 552px;
+    height: 55px;
+    left: 364px;
+    top: 479px;
+    background: linear-gradient(180deg, #EA5A09 0%, #EE2F15 100%);
+    border-radius: 5px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+.createAcct:hover{
+    background: linear-gradient(180deg, rgba(234, 90, 9, 0.8) 0%, rgba(238, 47, 21, 0.8) 100%);
+    border-radius: 5px;
+}
+
+.google{
+    position: absolute;
+    left: 364px;
+    right: 652px;
+    top: 589px;
+    bottom: 118px;
+
+    background: #000847;
+    border-radius: 5px;
+    width: 264px;
+    height: 55px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding-left: 20px;
+}
+
+.googleLogo{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 389px;
+    right: 871px;
+    top: 607px;
+    bottom: 135px;
+}
+
+.github{
+    position: absolute;
+    width: 264px;
+    height: 55px;
+    width: 264px;
+    height: 55px;
+    left: 652px;
+    top: 589px;
+    
+    background: #000847;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding-left: 20px;
+}
+
+.githubLogo{
+    position: absolute;
+    top: 607px;
+    left: 677px;
+}
+
+.haveAcct{
+    position: absolute;
+    top: 689px;
+    left: 504px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000847;
+}

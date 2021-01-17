@@ -1,0 +1,240 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    width: 1280px;
+    height: 689px;
+  }
+
+  button {
+    font-family: "poppins";
+    outline: none;
+  }
+
+  input {
+    outline: none;
+  }
+
+  header {
+    display: flex;
+    width: 96%;
+    height: 12vh;
+    margin: auto;
+    align-items: center;
+  }
+  .acc{
+    position: absolute;
+    left: 386px;
+    right: 383px;
+    top: 121.16px;
+    bottom: 516.3px;
+    width: 515px;
+    height: 51.54px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 57px;
+  }
+  .acc1{
+    position: absolute;
+    height: 51.53937530517578px;
+    width: 511px;
+    left: 640px;
+    top: 121.1627197265625px;    
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 57px;
+
+    color: rgba(234, 90, 9, 1);
+    ;
+  }
+  .accsub{
+    position: absolute;
+    height: 39.7px;
+    width: 472px;
+    left: 403px;
+    top: 192.5px; 
+    right: 405px;
+    bottom: 456.22px;   
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #000847;
+  }
+  .survey{
+    position: absolute;
+    width: 445px;
+    height: 85px;
+    left: 416px;
+    top: 284px;
+    
+    background: linear-gradient(90deg, #EA5A09 0%, #EE3C15 100%);
+    border-radius: 5px;
+  }
+  .check{
+    position: absolute;
+    left: 31px;
+    top: 25px;     
+  }
+  .survportal{
+    position: absolute;
+    left: 91px;
+    right: 129px;
+    top: 14px;
+    bottom: 49px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+  .survportal1{
+    position: absolute;
+    left: 91px;
+    right: 80px;
+    top: 40px;
+    bottom: 15px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    
+    color: #FFFFFF;
+  }
+  .arrow{
+    position: absolute;
+    left: 413px;
+    right: 25px;
+    top: 36px;
+    bottom: 35px;
+  }
+  .storee{
+    position: absolute;
+    width: 445px;
+    height: 85px;
+    left: 416px;
+    top: 411px;
+    
+    background: linear-gradient(90deg, #702DFF 0%, #5722CB 100%);
+    border-radius: 5px;
+  }
+  .store{
+    position: absolute;
+    left: 31px;
+    right: 379px;
+    top: 27px;
+    bottom: 27px;
+  }
+  .hostport{
+    position: absolute;
+    left: 91px;
+    right: 167px;
+    top: 14px;
+    bottom: 49px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+  .hostport1{
+    position: absolute;
+    left: 91px;
+    right: 68px;
+    top: 43px;
+    bottom: 12px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    
+    color: #FFFFFF;
+  }
+  .arrow1{
+    position: absolute;
+    left: 413px;
+    right: 25px;
+    top: 36px;
+    bottom: 35px;
+  }
+  .alracc{
+    position: absolute;
+    left: 505px;
+    right: 505px;
+    top: 540px;
+    bottom: 133.63px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #000847;
+  }
+  .log{
+    position: absolute;
+    left: 680px;
+    right: 455px;
+    top: 540px;
+    bottom: 133.63px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    
+    color: rgba(238, 47, 21, 1);
+    ;
+  }
+  .survey:hover{
+      background: linear-gradient(180deg, rgba(234, 90, 9, 0.8) 0%, rgba(238, 47, 21, 0.8) 100%);
+;
+  }
+  .storee:hover{
+    background: linear-gradient(90deg, rgba(112, 45, 255, 0.9) 0%, rgba(87, 34, 203, 0.9) 100%);
+  }
+  .logo{
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    left: 30px;
+    top: 26px;
+  }
