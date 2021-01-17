@@ -3,6 +3,7 @@ const path = require('path')
 
 // Initialize express
 const app = express()
+const port = process.env.PORT || 3000
 
 // Rendering handlebars template views
 app.set('view engine', 'hbs')
@@ -80,6 +81,6 @@ app.get('/host', (req, res) => {
 // Serving up static assets
 app.use(express.static(path.join(__dirname, '../public')))
 
-app.listen(3000, () => {
-    console.log('Server is up on port 3000.')
+app.listen(port, () => {
+    console.log('Server is up on port' + port)
 })
