@@ -96,6 +96,8 @@
                 <img class="arroww" src = '/interior/fires/arrow.svg' alt="">
                 </a> 
             </div>
+
+            <div class="blackScreen"></div>
             <div class="content">
                 <div class="topTitles">
                     <h1 class="number">#</h1>
@@ -108,18 +110,71 @@
                 <div class="data">
                     <img class="number1" src="/interior/sparks/number1.svg">
                     <h1 class="voluntarily">Will you voluntarily take 2 doses of the...</h1>
-                    <button class="mc" disabled>Multiple Choice</button>
+                    <button class="mc" onclick="">Multiple Choice</button>
                     <button class="noSep" disabled>No Separation</button>
                     <h1 class="responseNum">260</h1>
                     <img class="optionsImg" src="/interior/sparks/optionsImg.svg">
                 </div>
+                <div class="plusAlert">
+                <h1 class="title">Create a new Spark</h1>
                 <a href="">
-                    <div class = 'plus'>
+                    <div class="createSpark">
+                    <h1 class="newSpark">Create a Fire instead</h1>
+                    </div>
+                </a>
+                <div class="inputs">
+                    <h1 class="spatype">Spark Type</h1>
+                    <h1 class="enterNewSurvey">Select the topic that your survey focuses on.</h1>
+                    <button id="mult" class='mult' onclick="multButton()">Multiple Choice</button>
+                    <button id="long" class='long' onclick="longButton()">Long Answer</button>
+                    <button id="short" class="short" onclick="shortButton()"v>Short Answer</button>
+                    <h1 class="responseGoal">Spark Goal</h1>
+                    <h1 class="responseLimit">Enter your questions responses limit</h1>
+                    <input class="responseInput" type="number">
+
+                    <h1 class = 'topques'>Question</h1>
+                    <h1 class = 'subques'>Enter the question you wish to ask the user.</h1>
+                    <input class="userques" type="text">
+
+                    <h1 class = 'opt1'>Options</h1>
+                    <h1 class="opt2">Enter the options that will be available for your multiple choice question.</h1>
+                    <input type="text" class="option1">
+                    <input type="text" class="option2">
+                    <input type="text" class="option3">
+                    <input type="text" class="option4">
+
+                    <button class='crespark'>Create Spark</button>
+                    <a class="cancel" href="">or Cancel</a>
+                </div>
+            </div>
+            <a onclick="showContent()">
+                    <div class='plus'>
                         <img class ='plusimg'src="/interior/fires/plus.svg" alt="">
                     </div>
                  </a>
-            </div>
+            
         </div>
-        <script src="/js/exterior/index.js"></script>
+        <script src="/interior/sparks/sparks.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-functions.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-auth.js"></script>
+
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyBmrTAa1LnIbQeSiojCw6fT9bnas0_Rob4",
+      authDomain: "wildfire-7e594.firebaseapp.com",
+      projectId: "wildfire-7e594",
+      storageBucket: "wildfire-7e594.appspot.com",
+      messagingSenderId: "64460218098",
+      appId: "1:64460218098:web:3d795a221fec883e82ba6b",
+      measurementId: "G-GFK4PMQKEF"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const auth = firebase.auth();
+    const db = firebase.firestore();
+    db.settings({ timestampInSnapshots: true });
+  </script>
     </body>
 </html>
