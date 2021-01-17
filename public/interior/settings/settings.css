@@ -761,6 +761,23 @@ bottom: 12px;
     top: 11px;
   }
 
+  .alertCopy{
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    left: 100px;
+    top: 35px;
+    display: none;
+  }
+  
+  .alertText{
+    position: absolute;
+    font-size: 7px;
+    font-weight: bold;
+
+  }
+
+
 .clipboard:hover{
     cursor: pointer;
 }
@@ -772,8 +789,12 @@ bottom: 12px;
     left: 290px;
     top: 392px;
     
-    background: #EE3C15;
+    background: rgba(238, 60, 21, 0.1);
     border-radius: 4px;
+}
+
+.widescreenCard:hover{
+  background: rgba(238, 60, 21, 0.15);
 }
 
 .widescreenImg{
@@ -783,7 +804,7 @@ bottom: 12px;
     left: 15px;
     top: 14px;
 
-    border: 1px dashed #FFFFFF;
+    border: 1px dashed #EE3C15;;
     border-radius: 2px;
 }
 
@@ -798,7 +819,7 @@ bottom: 12px;
     font-size: 16px;
     line-height: 19px;
 
-    color: #FFFFFF;
+    color: #EE3C15;;
 }
 
 .widescreen{
@@ -814,7 +835,7 @@ bottom: 12px;
     /* identical to box height */
 
 
-    color: #FFFFFF;
+    color: #EE3C15;;
 }
 
 .squareCard{
@@ -824,8 +845,12 @@ bottom: 12px;
     left: 594px;
     top: 392px;
 
-    background: #702DFF;
+    background: rgba(112, 45, 255, 0.1);;
     border-radius: 4px;
+}
+
+.squareCard:hover{
+  background: rgba(112, 45, 255, 0.15);
 }
 
 .squareImg{
@@ -835,7 +860,7 @@ bottom: 12px;
     left: 20px;
     top: 12px;
 
-    border: 1px dashed #FFFFFF;
+    border: 1px dashed #702DFF;
     border-radius: 2px;
 }
 
@@ -850,7 +875,7 @@ bottom: 12px;
     font-size: 16px;
     line-height: 19px;
 
-    color: #FFFFFF;
+    color: #702DFF;
 
 }
 
@@ -867,7 +892,7 @@ bottom: 12px;
     /* identical to box height */
 
 
-    color: #FFFFFF;
+    color: #702DFF;
 }
 
 .voiceCard{
@@ -879,6 +904,10 @@ bottom: 12px;
 
     background: rgba(0, 24, 217, 0.1);
     border-radius: 4px;
+}
+
+.voiceCard:hover{
+  background: rgba(0, 24, 217, 0.15);
 }
 
 .voiceImg{
@@ -924,7 +953,7 @@ bottom: 12px;
     left: 290px;
     top: 529px;
     
-    background: #EE3C15;
+    background: rgba(238, 60, 21, 0.1);
     border-radius: 4px;
 }
 
@@ -939,9 +968,13 @@ bottom: 12px;
     font-size: 14px;
     line-height: 17px;
     /* identical to box height */
+    
 
+    color: #EE3C15;
+}
 
-    color: #FFFFFF;
+.technology:hover{
+  background: rgba(255, 64, 21, 0.719);
 }
 
 .business{
@@ -968,7 +1001,11 @@ bottom: 12px;
     /* identical to box height */
     
     
-    color: #702DFF;
+    color: #6f2dffa4;
+}
+
+.business:hover{
+  background: rgba(102, 31, 255, 0.452);
 }
 
 .foodEnt{
@@ -978,7 +1015,7 @@ bottom: 12px;
     left: 518px;
     top: 529px;
     
-    background: rgba(65, 211, 159, 0.1);
+    background: rgba(65, 211, 160, 0.397);
     border-radius: 4px;
 }
 
@@ -998,6 +1035,10 @@ bottom: 12px;
     color: #41D39F;
 }
 
+.foodEnt:hover{
+  background: rgba(77, 248, 188, 0.863)
+}
+
 .health{
     position: absolute;
     width: 151px;
@@ -1005,7 +1046,7 @@ bottom: 12px;
     left: 722px;
     top: 529px;
     
-    background: rgba(21, 199, 238, 0.1);
+    background: rgba(21, 198, 238, 0.315);
     border-radius: 4px;
 }
 
@@ -1025,6 +1066,10 @@ bottom: 12px;
     color: #15C7EE;
 }
 
+.health:hover{
+  background: rgba(18, 212, 255, 0.651);
+}
+
 .sport{
     position: absolute;
     width: 157px;
@@ -1032,7 +1077,7 @@ bottom: 12px;
     left: 889px;
     top: 529px;
     
-    background: rgba(0, 24, 217, 0.1);
+    background: rgba(0, 25, 217, 0.24);
     border-radius: 4px;
 }
 
@@ -1050,6 +1095,10 @@ bottom: 12px;
     
     
     color: #0017CD;    
+}
+
+.sport:hover{
+  background: rgba(0, 28, 238, 0.74);
 }
 
 .education{
@@ -1078,6 +1127,10 @@ bottom: 12px;
     
     color: #EEA415;
     
+}
+
+.education:hover{
+  background: rgba(252, 172, 12, 0.623);
 }
 
 .dot{
@@ -1118,3 +1171,40 @@ bottom: 12px;
   .hover:hover .hoverr {
     display: block;
    }
+   .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }

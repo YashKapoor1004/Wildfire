@@ -429,6 +429,12 @@ bottom: 12px;
   height: 37px;
 
 }
+
+.upgradeDiv:hover{
+  cursor: pointer;
+  background: #EA5A09;
+}
+
 .upgrade{
   position: absolute;
   left: 47px;
@@ -443,7 +449,6 @@ bottom: 12px;
   font-size: 14px;
   line-height: 17px;
   /* identical to box height */
-
   
 }
 .chat{
@@ -763,6 +768,14 @@ bottom: 12px;
 
 
     color: #000634;
+}
+
+.dashArea{
+  position: absolute;
+  left: 3.14%;
+  right: 5.18%;
+  top: 19.2%;
+  bottom: 6.4%;
 }
 
 .rightSideCharts{

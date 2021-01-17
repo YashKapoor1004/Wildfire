@@ -53,20 +53,20 @@ $(document).ready(function(){
     $(".float input").change(floatLabel);
   });
 
-  function logIn(){
+  document.querySelector('.needAcct').addEventListener('click', function(event){
+    window.location.href("/signup");
+  });
+
+  document.querySelector('.submitBtn').addEventListener('click', function(event){
     var email = document.getElementById('emailInput').value;
     var password = document.getElementById('passwordInput').value;
-    console.log(email)
-    console.log(password)
-    auth.signInWithEmailAndPassword(email, password)
-    .then(function(value){
-        alert('You Are Logged In!')
-        window.location.href("/dashboard");
+
+    auth.signInWithEmailAndPassword(email, password).then(function(value){
+      // window.location.href = "http://getwildfire.tech/dashboard";
+      alert('logged in');
     })
     .catch(function(error) {
-        var errorCode = error.code;
-        var errorMessage = error.message;
-        // ...
+        alert(error.code);
+        alert(error.message);
     });
-}
-  
+  });
