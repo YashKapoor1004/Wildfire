@@ -1852,6 +1852,8 @@ background: rgba(0, 24, 217, 0.15);
 
 .typeCard{
   position: absolute;
+  top: -50%;
+  left: -31.5%;
   top: -47.5%;
   left: -31.5%;
 }

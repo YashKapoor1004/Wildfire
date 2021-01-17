@@ -92,6 +92,7 @@ input:focus{
     height: 40px;
     left: 937px;
     top: 285px;
+    display: none;
 }
 
 .submitBtn{
@@ -130,6 +131,7 @@ input:focus{
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
+    display: none;
 }
 
 .leftOr{
@@ -180,7 +182,7 @@ input:focus{
     width: 264px;
     height: 55px;
     color: white;
-    font-weight: bold;
+    font-weight: 400;
     border: none;
     padding-left: 20px;
 }
@@ -207,7 +209,7 @@ input:focus{
     background: #000847;
     border-radius: 5px;
     color: white;
-    font-weight: bold;
+    font-weight: 400;
     border: none;
     padding-left: 20px;
 }
@@ -220,10 +222,10 @@ input:focus{
 
 .needAcct{
     position: absolute;
-    left: 525px;
-    right: 525px;
-    top: 693px;
-    bottom: 53px;
+    left: 53.59%;
+    right: 28.44%;
+    top: 74.17%;
+    bottom: 23.6%;
 
     font-family: Inter;
     font-style: normal;
@@ -234,4 +236,8 @@ input:focus{
 
 
     color: #000847;
+}
+
+.needAcct:hover{
+    cursor: pointer;
 }

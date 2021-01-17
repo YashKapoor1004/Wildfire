@@ -287,11 +287,7 @@ class Fire extends HTMLElement{
       this.attachShadow({ mode: 'open'});
       this.shadowRoot.appendChild(template.content.cloneNode(true));
       this.shadowRoot.querySelector('h3').innerText = 
-<<<<<<< Updated upstream
-      this.getAttribute('firename');
-=======
       this.getAttribute("firename");
->>>>>>> Stashed changes
       this.shadowRoot.querySelector('h4').innerText = 
       this.getAttribute('responses');
       this.shadowRoot.querySelector('h5').innerText = this.getAttribute('goal');
