@@ -12,6 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Fires</title>
   </head>
@@ -127,48 +132,146 @@
         <img class ='plusimg'src="/interior/fires/plus.svg" alt="">
       </div>
     </a>
-    <div>
+    <img class = 'topp' src="/interior/fires/topp.svg" alt="">
+    <img class="line1" src="/interior/fires/lineB.svg" alt="">
+    <div class = 'part1'>
+      <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+          </label>
       <h1 class = 'fire1'>COVID-19 Population Opinion Survey</h1>
       <h1 class = 'response1'>246</h1>
-      <img class = 'prog1' src="" alt="">
-      <img class = 'goal1' src="" alt="">
+      <img class = 'prog1' src="/interior/fires/prog1.svg" alt="">
+      <h1 class = 'goal1'>500</h1>
         <div class="type">
-          <h1 class = 'typeI'>800 x 800</h1>
+          <h1 class = 'typeI'>900 x 300</h1>
         </div>
-      <h1 id = 'resp1'>10:34 am</h1>
+      <h1 class = 'resp1'>10:34 am</h1>
       <img src="" alt="">
     </div>
+    <img class="line2" src="/interior/fires/lineB.svg" alt="">
+    <div class = 'part2'>
+      <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+          </label>
+      <h1 class = 'fire2'>Audio Quality Survey</h1>
+      <h1 class = 'response2'>221</h1>
+      <img class = 'prog2' src="/interior/fires/prog2.svg" alt="">
+      <h1 class = 'goal2'>250</h1>
+        <div class="type1">
+          <h1 class = 'typeI2'>Voice Survey</h1>
+        </div>
+      <h1 class = 'resp2'>11:44 am</h1>
+      <img src="" alt="">
+    </div>
+    <img class="line3" src="/interior/fires/lineB.svg" alt="">
+    <div class = 'part3'>
+      <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+          </label>
+      <h1 class = 'fire3'>Music Survey</h1>
+      <h1 class = 'response3'>230</h1>
+      <img class = 'prog3' src="/interior/fires/prog3.svg" alt="">
+      <h1 class = 'goal3'>300</h1>
+        <div class="type3">
+          <h1 class = 'typeI3'>Voice Survey</h1>
+        </div>
+      <h1 class = 'resp3'>1:39 pm</h1>
+      <img src="" alt="">
+    </div>
+    <img class="line4" src="/interior/fires/lineB.svg" alt="">
+    <div class = 'part4'>
+       <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+          </label>
+      <h1 class = 'fire4'>Money Survey</h1>
+      <h1 class = 'response4'>893</h1>
+      <img class = 'prog4' src="/interior/fires/prog4.svg" alt="">
+      <h1 class = 'goal4'>1000</h1>
+        <div class="type3">
+          <h1 class = 'typeI4'>500 x 500</h1>
+        </div>
+      <h1 class = 'resp4'>9:23 pm</h1>
+      <img src="" alt="">
+    </div>
+    <img class="line5" src="/interior/fires/lineB.svg" alt="">
 
-    <input id="firenameInput" style="position: absolute; top: 20%; left: 30%;"/>
+    <!-- <input id="firenameInput" style="position: absolute; top: 20%; left: 30%;"/>
     <input id="responsesInput"style="position: absolute; top: 25%; left: 30%;"/>
     <input id="goalInput"style="position: absolute; top: 30%; left: 30%;"/>
     <input id="deadlineInput"style="position: absolute; top: 35%; left: 30%;"/>
-    <input id="lastrespInput"style="position: absolute; top: 40%; left: 30%;"/>
+    <input id="lastrespInput"style="position: absolute; top: 40%; left: 30%;"/> 
     <button onclick="updateFirebase()"style="position: absolute; top: 45%; left: 30%;">Update Firebase</button>
-    <button onclick="fetchData()"style="position: absolute; top: 45%; left: 50%;">Fetch Firebase</button>
+    <button onclick="fetchData()"style="position: absolute; top: 45%; left: 50%;">Fetch Firebase</button> -->
     <fire-div id="first" style="display:none;">
       <div id="email" slot="email"></div>
-      <div id="pass" slot="password"></div>
+      <div id="pass" slot="password"></div>*/
     </fire-div>
 
     <div class="blackScreen"></div>
     
     <div class="plusAlert">
-      <h1 class="create">Create A New Fire</h1>
-      <h1 class="fireName">Fire Name</h1>
-      <h1 class="fireNameText">Enter the name of the new survey.</h1>
-      <h1 class="responseGoal">Response Goal</h1>
-      <h1 class="responseGoalText">Enter your survey responses limit.</h1>
-      <h1 class="fireType">Fire Type</h1>
-      <h1 class="fireTypeText">Choose the survey type you wish to create.</h1>
-      <input id="fireInput" class="fireInput"/>
-      <input id="responseInput" class="responseInput"/>
-      <a><div class="orangDiv"></div></a>
-      <img class="dottedOrange" src=""/>
-      <h1 class
-
-
-
+      <h1 class="title">Create a new Fire</h1>
+      <a href="">
+        <div class="createSpark">
+          <h1 class="newSpark">Create a Spark instead</h1>
+        </div>
+      </a>
+      <div class="inputs">
+        <h1 class="fireName">Fire Name</h1>
+        <h1 class="enterNewSurvey">Enter the name of the new survey</h1>
+        <input class="fireInput" type="text">
+        <h1 class="responseGoal">Response Goal</h1>
+        <h1 class="responseLimit">Enter your survey responses limit</h1>
+        <input class="responseInput" type="number">
+      </div>
+      <div class="fireType">
+        <h1 class="fireTypeTxt">Fire Type</h1>
+        <h1 class="chooseSurvey">Choose the survey type you wish to create</h1>
+        <div class="widescreenCard">
+          <img class="widescreenImg" src="/interior/settings/widescreenImg.svg">
+          <h1 class="eightHundred">900 x 300 survey ratio</h1>
+          <h1 class="widescreen">Widescreen survey for wider spaces</h1>
+        </div>
+        <div class="squareCard">
+          <img class="squareImg" src="/interior/settings/widescreenImg.svg">
+          <h1 class="fourhundred">500 x 500 survey size</h1>
+          <h1 class="square">Square-size survey for wider spaces</h1>
+        </div>
+        <div class="voiceCard">
+          <img class="voiceImg" src="/interior/settings/voiceImg.svg">
+          <h1 class="voice">Voice assistant survey</h1>
+          <h1 class="nlp">NLP powered voice survey</h1>
+        </div>
+      </div>
+      <div class="fireTopic">
+        <h1 class="surveyTopic">Survey Topic</h1>
+        <h1 class="focusTopic">Select the topic that your survey focuses on</h1>
+        <div class="technology">
+            <h1 class="techTxt">Technology</h1>
+        </div>
+        <div class="business">
+            <h1 class="businessTxt">Business</h1>
+        </div>
+        <div class="foodEnt">
+            <h1 class="foodEntTxt">Food and Entertainment</h1>
+        </div>
+        <div class="health">
+            <h1 class="healthTxt">Health and Safety</h1>
+        </div>
+        <div class="sport">
+            <h1 class="sportTxt">Sports and Fitness</h1>
+        </div>
+        <div class="education">
+            <h1 class="eduTxt">Education</h1>
+        </div>
+      </div>
+      <button class="createFire">Create Fire</button>
+      <h1 class="or">or</h1>
+      <a href="">Cancel</a>
     </div>
 
     <script src="/interior/fires/fires.js"></script>

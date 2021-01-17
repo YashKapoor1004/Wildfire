@@ -100,7 +100,7 @@
                 <h1 class="genDetails">Survey Settings</h1>
                 <img class="topLine" src="/interior/settings/line.svg">
                 <h1 class="surveyName">Survey name</h1>
-                <h1 class="authID"> Auth ID</h1>
+                <h1 class="authID"> Auth ID</h1> 
                 <h1 class="surveyType">Survey Type</h1>
                 <h1 class="surveyTopic">Survey Topic</h1>
                 <button class="saveChanges">Save changes</button>
@@ -115,47 +115,58 @@
                 </div>
                 <div class="copyToClipboard">
                     <h1 class="ID">jgHekgHjghd784mBjgkAjmgkda</h1>
-                    <img class="clipboard" src="/interior/settings/clipboard.svg">
+                    <input style="display: none;" id="ID" value="jgHekgHjghd784mBjgkAjmgkda"/>
+                        <a onclick="copyFunc()">
+                            <img class="clipboard" src="/interior/settings/clipboard.svg"></a>
+                            <div id="alertCopy" class="alertCopy">
+                    <h1 class="alertText"></h1>
+                </div>
                 </div>
                 <div class="typeCard">
-                    <div class="widescreenCard">
-                        <img class="widescreenImg" src="/interior/settings/widescreenImg.svg">
-                        <h1 class="eightHundred">800 x 400 survey ratio</h1>
-                        <h1 class="widescreen">Widescreen survey for wider spaces</h1>
+                    <a onclick="wideScreen()">
+                    <div id="widescreenCard" class="widescreenCard">
+                        <img id="widescreenImg" class="widescreenImg" src="/interior/settings/widescreenImg.svg">
+                        <h1 id="eightHundred"class="eightHundred">900 x 300 survey ratio</h1>
+                        <h1 id="widescreen"class="widescreen">Widescreen survey for wider spaces</h1>
                     </div>
-                    <div class="squareCard">
-                        <img class="squareImg" src="/interior/settings/widescreenImg.svg">
-                        <h1 class="fourhundred">400 x 400 survey size</h1>
-                        <h1 class="square">Square-size survey for wider spaces</h1>
+                    </a>
+                    <a onclick="squareCard()">
+                    <div id="squareCard" class="squareCard">
+                        <img id="squareImg"class="squareImg" src="/interior/settings/widescreenImg.svg">
+                        <h1 id="fourHundred"class="fourhundred">500 x 500 survey size</h1>
+                        <h1 id="square" class="square">Square-size survey for wider spaces</h1>
                     </div>
-                    <div class="voiceCard">
-                        <img class="voiceImg" src="/interior/settings/voiceImg.svg">
-                        <h1 class="voice">Voice assistant survey</h1>
-                        <h1 class="nlp">NLP powered voice survey</h1>
+                    </a>
+                    <a onclick="voiceCard()">
+                    <div id="voiceCard" class="voiceCard">
+                        <img id="voiceImg" class="voiceImg" src="/interior/settings/voiceImg.svg">
+                        <h1 id="voice" class="voice">Voice assistant survey</h1>
+                        <h1 id="nlp" class="nlp">NLP powered voice survey</h1>
                     </div>
+                    </a>
                 </div>
                 <div class="topicCard">
-                    <div class="technology">
-                        <h1 class="techTxt">Technology</h1>
-                    </div>
-                    <div class="business">
-                        <h1 class="businessTxt">Business</h1>
-                    </div>
-                    <div class="foodEnt">
-                        <h1 class="foodEntTxt">Food and Entertainment</h1>
-                    </div>
-                    <div class="health">
-                        <h1 class="healthTxt">Health and Safety</h1>
-                    </div>
-                    <div class="sport">
-                        <h1 class="sportTxt">Sports and Fitness</h1>
-                    </div>
-                    <div class="education">
-                        <h1 class="eduTxt">Education</h1>
-                    </div>
+                    <a onclick="techFunc()"><div id="tech" class="technology">
+                        <h1 id="techTxt"class="techTxt">Technology</h1>
+                    </div></a>
+                    <a onclick="businessFunc()"><div id="business"class="business">
+                        <h1 id="businessTxt"class="businessTxt">Business</h1>
+                    </div></a>
+                    <a onclick="foodEntFunc()"><div id="foodEnt" class="foodEnt">
+                        <h1 id="foodEntTxt"class="foodEntTxt">Food and Entertainment</h1>
+                    </div></a>
+                    <a onclick="healthFunc()"><div id="health" class="health">
+                        <h1 id="healthTxt"class="healthTxt">Health and Safety</h1>
+                    </div></a>
+                    <a onclick="sportFunc()"><div id="sport"class="sport">
+                        <h1 id="sportTxt"class="sportTxt">Sports and Fitness</h1>
+                    </div></a>
+                    <a onclick="educationFunc()"><div id="education"class="education">
+                        <h1 id="eduTxt"class="eduTxt">Education</h1>
+                    </div></a>
                 </div>
             </div>
         </div>
-        <script src="/js/exterior/index.js"></script>
+        <script src="/interior/settings/settings.js"></script>
     </body>
 </html>

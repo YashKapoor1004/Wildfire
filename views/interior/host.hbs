@@ -13,11 +13,14 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
+        <a class="pluss" href="">
+            <img src="/interior/host/pluss.svg" alt="">
+        </a>
         <div class="container">
             <div class="sideBar" id="sideBar">
             <img class="leftArrow" src="/interior/dashboard/leftArrow.svg">
             <h1 id = 'title' class="title">Wildfire</h1>
-            <h1 id = 'subTitle' class="subTitle">Surveyer's Portal</h1>
+            <h1 id = 'subTitle' class="subTitle">Surveyers' Portal</h1>
             <img id = 'logo' class="logo" src="/interior/host/logo.svg">
                 <div class="buttonsDiv">
                     <a href="dashboard.hbs">
@@ -112,13 +115,42 @@
             <img class="dot" src="circle.svg"/>
             <h1 class="jan17">January 17</h1>
         </div>
+            </div>
+            <div class="blackScreen"></div>
+            <div class="hostAlert">
+                <h1 class="createAlert">Create new content</h1>
+                <h1 class="spark">Spark Type</h1>
+                <h1 class="sparkText">Select the type of survey you wish to add</h1>
+                <div class="typeCard">
+                    <a onclick="wideScreen()">
+                    <div id="widescreenCard" class="widescreenCard">
+                        <img id="widescreenImg" class="widescreenImg" src="/interior/settings/widescreenImg.svg">
+                        <h1 id="eightHundred"class="eightHundred">900 x 300 survey ratio</h1>
+                        <h1 id="widescreen"class="widescreen">Widescreen survey for wider spaces</h1>
+                    </div>
+                    </a>
+                    <a onclick="squareCard()">
+                    <div id="squareCard" class="squareCard">
+                        <img id="squareImg"class="squareImg" src="/interior/settings/widescreenImg.svg">
+                        <h1 id="fourHundred"class="fourhundred">500 x 500 survey size</h1>
+                        <h1 id="square" class="square">Square-size survey for wider spaces</h1>
+                    </div>
+                    </a>
+                    <a onclick="voiceCard()">
+                    <div id="voiceCard" class="voiceCard">
+                        <img id="voiceImg" class="voiceImg" src="/interior/settings/voiceImg.svg">
+                        <h1 id="voice" class="voice">Voice assistant survey</h1>
+                        <h1 id="nlp" class="nlp">NLP powered voice survey</h1>
+                    </div>
+                    </a>
+                </div>
 
 
-
-            
+                <h1 class="createAlert">Create new content</h1>
+                
             </div>
         </div>
-        <script src="/interior/dashboard/dashboard.js"></script>
+        <script src="/interior/host/host.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init();
