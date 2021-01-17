@@ -1352,7 +1352,7 @@ bottom: 12px;
 
     color: #0217B8;
 }
-
+ 
 .settingsDiv:hover{
   background-color:rgba(255, 255, 255, 0.15);;
 }
@@ -1602,4 +1602,406 @@ background: #EE3C15;
 
 .content2:hover{
     background: rgba(185, 192, 201, 0.1);
+}
+.pluss{
+  position: absolute;
+  left: 1186px;
+  top: 588px;
+}
+
+.blackScreen{
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+  display: none;
+}
+
+
+.hostAlert{
+  position: absolute;
+width: 891px;
+height: 494px;
+left: 194px;
+top: 98px;
+  background: #FFFFFF;
+border-radius: 10px;
+z-index: 10;
+display: none;
+}
+
+.createAlert{
+  position: absolute;
+left: 4.38%;
+right: 76.09%;
+top: 6.48%;
+bottom: 89.07%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000634;
+}
+
+.spark{
+  position: absolute;
+left: 4.38%;
+right: 85.86%;
+top: 18.02%;
+bottom: 78.14%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #000634;
+}
+
+.sparkText{
+  position: absolute;
+left: 4.38%;
+right: 68.57%;
+top: 23.48%;
+bottom: 73.48%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #B9C0C9;
+}
+
+
+
+
+.widescreenCard{
+  position: absolute;
+  width: 262px;
+  height: 91px;
+  left: 310px;
+  top: 392px;
+  
+  background: rgba(238, 60, 21, 0.1);
+  border-radius: 4px;
+}
+
+.widescreenCard:hover{
+background: rgba(238, 60, 21, 0.15);
+}
+
+.widescreenImg{
+  position: absolute;
+  width: 28px;
+  height: 19px;
+  left: 15px;
+  top: 14px;
+
+  border: 1px dashed #EE3C15;;
+  border-radius: 2px;
+}
+
+.eightHundred{
+  position: absolute;
+  left: 15px;
+  top: 44px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #EE3C15;;
+}
+
+.widescreen{
+  position: absolute;
+  left: 15px;
+  top: 67px;
+
+  font-family: Inter;
+  font-style: light;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #EE3C15;;
+}
+
+.squareCard{
+  position: absolute;
+  width: 262px;
+  height: 91px;
+  left: 594px;
+  top: 392px;
+
+  background: rgba(112, 45, 255, 0.1);;
+  border-radius: 4px;
+}
+
+.squareCard:hover{
+background: rgba(112, 45, 255, 0.15);
+}
+
+.squareImg{
+  position: absolute;
+  width: 28px;
+  height: 19px;
+  left: 20px;
+  top: 12px;
+
+  border: 1px dashed #702DFF;
+  border-radius: 2px;
+}
+
+.fourhundred{
+  position: absolute;
+  left: 18px;
+  top: 40px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #702DFF;
+
+}
+
+.square{
+  position: absolute;
+  left: 20px;
+  top: 66px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #702DFF;
+}
+
+.voiceCard{
+  position: absolute;
+  width: 262px;
+  height: 91px;
+  left: 878px;
+  top: 392px;
+
+  background: rgba(0, 24, 217, 0.1);
+  border-radius: 4px;
+}
+
+.voiceCard:hover{
+background: rgba(0, 24, 217, 0.15);
+}
+
+.voiceImg{
+  position: absolute;
+  left: 22px;
+  top: 12px;
+}
+
+.voice{
+  position: absolute;
+  left: 20px;
+  top: 40px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #0017CD;
+}
+
+.nlp{
+  position: absolute;
+  left: 22px;
+  top: 66px;
+
+  font-family: Inter;
+  font-style: light;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #0017CD;
+}
+
+.typeCard{
+  position: absolute;
+  top: -47.5%;
+  left: -31.5%;
+}
+
+.contentText{
+  position: absolute;
+left: 4.38%;
+right: 68.57%;
+top: 64.17%;
+bottom: 32.79%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #B9C0C9;
+}
+
+.contentInput{
+
+position: absolute;
+left: 4.38%;
+width: 90%;
+top: 69.64%;
+bottom: 21.26%;
+padding-left: 5%;
+
+background: #FFFFFF;
+border: 1px solid rgba(195, 202, 211, 0.6);
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+.createContent{
+  position: absolute;
+left: 72.82%;
+width: 15%;
+top: 85.43%;
+bottom: 6.68%;
+
+background: #702DFF;
+border-radius: 3px;
+font-weight: normal;
+color: white;
+}
+
+.orCancel{
+  position: absolute;
+left: 88.44%;
+right: 4.15%;
+top: 87.65%;
+bottom: 8.91%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #702DFF;
+}
+
+.contentN{
+  position: absolute;
+left: 4.38%;
+right: 83.16%;
+top: 58.1%;
+bottom: 38.06%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #000634;
+}
+
+.content3{
+  position: absolute;
+    width: 1032px;
+    height: 59px;
+    left: 248px;
+    top: 236px;
+    display: none;
+}
+
+.deployDiv{
+  position: absolute;
+  width: 599px;
+height: 303px;
+top: 30%;
+left: 30%;
+background: #FFFFFF;
+border-radius: 7px;
+}
+
+.deployTitle{
+  position: absolute;
+left: 9.02%;
+right: 8.85%;
+top: 13.2%;
+bottom: 77.89%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #000634;
+}
+
+.deployText{
+  position: absolute;
+left: 6.51%;
+right: 6.34%;
+top: 35.31%;
+bottom: 43.89%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* or 131% */
+
+text-align: center;
+
+color: #000634;
+}
+
+.deployButton{
+  position: absolute;
+left: 3.84%;
+right: 52.2%;
+top: 71.62%;
+bottom: 10.59%;
+
+background: #702DFF;
+border-radius: 5px;
+color: white;
+border: none;
+font-size: 18px;
 }
