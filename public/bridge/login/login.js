@@ -11,7 +11,7 @@ $(document).ready(function(){
         var val=$.trim(input.val());
           input.parent().addClass("float-active");
           $(this).siblings().each(function() {
-           if(val!="") 
+           if(val!="")
            {
                if($(this).hasClass('first_label'))
                 {

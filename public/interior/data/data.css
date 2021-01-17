@@ -1,0 +1,731 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    width: 1280px;
+    height: 689px;
+  }
+  
+  button {
+    font-family: "poppins";
+    outline: none;
+  }
+  
+  input {
+    outline: none;
+  }
+  
+  header {
+    display: flex;
+    width: 96%;
+    height: 12vh;
+    margin: auto;
+    align-items: center;
+  }
+  #sideBar{
+    position: absolute;
+    width: 248px;
+    height: 689px;
+    left: 0px;
+    top: 0px;
+    
+    background: #000634;
+  }
+#title{
+  position: absolute;
+left: 30.65%;
+right: 43.95%;
+top: 2.1%;
+bottom: 94.75%;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+#subTitle{
+  position: absolute;
+left: 30.65%;
+right: 6.85%;
+top: 5.25%;
+bottom: 92.39%;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+
+color: rgba(255, 255, 255, 0.5);
+}
+#logo{
+position: absolute;
+width: 48px;
+height: 48px;
+left: 20px;
+top: 11px;
+}
+
+.dashDiv{
+  position: absolute;
+  left: 14px;
+  right: 15px;
+  top: 89px;
+  bottom: 558px;
+  width: 219px;
+  height: 42px;
+
+
+  border-radius: 5px;
+}
+
+.leftArrow{
+    position: absolute;
+    top: 22px;
+    right: 24px;
+}
+
+#hDash{
+  position: absolute;
+  left: 62px;
+  right: 72px;
+  top: 10px;
+  bottom: 12px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: rgba(255, 255, 255, 0.5);
+}
+.lDash{
+  position: absolute;
+  left: 21px;
+  right: 180px;
+  top: 10px;
+  bottom: 215px;
+}
+.firesDiv{
+  position: absolute;
+  left: 14px;
+  right: 15px;
+  top: 141px;
+  bottom: 506px;
+  width: 219px;
+  height: 42px;
+  
+  border-radius: 5px;
+  background: #EE3C15;
+
+}
+
+.dashDiv:hover{
+    background-color:rgba(255, 255, 255, 0.15);;
+  }
+
+.hFires{
+  position: absolute;
+  left: 62px;
+  right: 119px;
+  top: 12px;
+  bottom: 11px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: white;
+}
+.lFires{
+  position: absolute;
+left: 21px;
+right: 180px;
+top: 12px;
+bottom: 12px;
+}
+.analyticsDiv{
+  position: absolute;
+  left: 14px;
+  right: 15px;
+  top: 193px;
+  bottom: 454px;
+  width: 219px;
+  height: 42px;
+  
+  background: #000634;
+  border-radius: 5px;
+}
+.lAnalytics{
+  position: absolute;
+  left: 21px;
+  right: 180px;
+  top: 11px;
+  bottom: 12px;
+  
+}
+.hAnalytics{
+  position: absolute;
+  left: 62px;
+  right: 84px;
+  top: 12px;
+  bottom: 11px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: rgba(255, 255, 255, 0.5);
+  
+}
+.exploreDiv{
+  position: absolute;
+  left: 14px;
+  right: 15px;
+  top: 247px;
+  bottom: 400px;
+  width: 219px;
+  height: 42px;
+  
+  background: #000634;
+  border-radius: 5px;
+}
+.lExplore{
+  position: absolute;
+  left: 21px;
+  top: 11px;
+  right: 180px;
+  bottom: 54px;
+
+}
+.hExplore{
+  position: absolute;
+  left: 62px;
+  right: 98px;
+  top: 12px;
+  bottom:11px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: rgba(255, 255, 255, 0.5);
+}
+.settingsDiv{
+  position: absolute;
+  left: 14px;
+  right: 15px;
+  top: 301px;
+  bottom: 346px;
+  width: 219px;
+  height: 42px;
+  
+  background: #000634;
+  border-radius: 5px;
+}
+.lSettings{
+  position: absolute;
+  left: 21px;
+  right: 180px;
+  top: 11px;
+  bottom: 1px;
+
+}
+.hSettings{
+
+  position: absolute;
+  left: 63px;
+  right: 91px;
+  top: 11px;
+  bottom: 12px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: rgba(255, 255, 255, 0.5);
+}
+.profPic{
+  position: absolute;
+  left: 22px;
+  right: 186px;
+  top: 630.65px;
+  bottom: 18.35px;
+  
+  background: url(photo-1529665253569-6d01c0eaf7b6.jpg);
+  border-radius: 100px;
+}
+.name{
+  position: absolute;
+  left: 77px;
+  right: 65px;
+  top: 636px;
+  bottom: 34.1px;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  
+  color: #FFFFFF;
+}
+.role{
+  position: absolute;
+  left: 77px;
+  right: 95px;
+  top: 656px;
+  bottom: 19.44px;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.topBar{
+    position: absolute;
+    width: 1032px;
+    height: 109px;
+    left: 248px;
+    top: 0px;
+    
+    background: #F9F9F9;
+  }
+
+.covidPop{
+    position: absolute;
+    width: 179px;
+    height: 33px;
+    left: 101px;
+    top: 17px;
+    
+    background: #000634;
+    border-radius: 4px;
+}
+
+.covidPopulationTxt{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.topArrowDown{
+    position: absolute;
+    left: 155px;
+    top: 13px;
+    
+    background: #FFFFFF;
+    transform: rotate(-180deg);
+}
+
+  .firesHead{
+    position: absolute;
+    left: 42px;
+    right: 947px;
+    top: 22px;
+    bottom: 65px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #000634;
+  }
+  .hHOme{
+    position: absolute;
+    left: 42px;
+    right: 956px;
+    top: 78px;
+    bottom: 16px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-transform: capitalize;
+    
+    color: #B9C0C9;
+  }
+  .hSparks{
+    position: absolute;
+    left: 114px;
+    right: 878px;
+    top: 78px;
+    bottom: 16px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-transform: capitalize;
+    
+    color: #B9C0C9;
+  }
+  .hData{
+    position: absolute;
+    left: 196px;
+    right: 809px;
+    top: 78px;
+    bottom: 16px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-transform: capitalize;
+    
+    color: #702DFF;
+  }
+  .hPreferences{
+    position: absolute;
+    left: 262px;
+    right: 700px;
+    top: 78px;
+    bottom: 16px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-transform: capitalize;
+    
+    color: #B9C0C9;
+  }
+  .upgradeDiv{
+    
+    background: #EE3C15;
+    border-radius: 5px;
+  
+    position: absolute;
+    left: 672px;
+    right: 235px;
+    top: 14px;
+    bottom: 58px;
+    position: absolute;
+    width: 125px;
+    height: 37px;
+  
+  }
+  .upgrade{
+    position: absolute;
+    left: 47px;
+    top: 9px;
+    right: 20px;
+    bottom: 11px;
+    
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+  
+    
+  }
+  .chat{
+    position: absolute;
+    left: 834px;
+    right: 163px;
+    top: 17px;
+    bottom: 57px;
+    border-radius: 5px;
+  }
+  .bell{
+    position: absolute;
+    left: 907px;
+    right: 107.84px;
+    top: 22px;
+    bottom: 67px;
+  }
+  .pfp2{
+    position: absolute;
+    left: 950px;
+    right: 52px;
+    top: 14px;
+    bottom: 65px;
+    border-radius: 100px;
+  }
+  .upgradeP{
+    position: absolute;
+    left: 17px;
+    right: 94px;
+    top: 9px;
+    bottom: 10px;
+    
+  }
+  .chatP{
+    position: absolute;
+    left: 7px;
+    right: 5.98px;
+    top: 7px;
+    bottom: 8px;
+  }
+  .plus{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1187px;
+    top: 603px;
+    border-radius: 50%;
+    
+    background: #702DFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+  }
+  .plusimg{
+    position: absolute;
+    left: 17px;
+    right: 17px;
+    top: 17px;
+    bottom: 17px;
+  
+  }
+  .upgradeDiv:hover{
+    background-color: #DC481A;
+  }
+  .line{
+    position: absolute;
+    left: 185px;
+    top: 109px;
+    right: 945px;
+  }
+  .arroww{
+    position: absolute;
+    left: 1003px;
+    right: 18px;
+    top: 29px;
+    bottom: 74px;
+  }
+
+.dot{
+    position: absolute;
+    left: 215px;
+    right: 29px;
+    top: 648.31px;
+    bottom: 26.22px;
+  }
+
+  .settingsDiv:hover{
+    background-color:rgba(255, 255, 255, 0.15);;
+  }
+  .exploreDiv:hover{
+    background-color:rgba(255, 255, 255, 0.15);;
+  }
+  .analyticsDiv:hover{
+    background-color:rgba(255, 255, 255, 0.15);;
+  }
+  .chat:hover{
+    background-color: rgba(0, 0, 0, 0.04);;
+  }
+  .bell:hover{
+    background-color: rgba(0, 0, 0, 0.04);;
+  }
+  
+  .hoverr{
+    position: absolute;
+    left: 199px;
+    right: 14px;
+    top: 637px;
+    bottom: 17px;
+  
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    display: none;
+  }
+  .hover:hover .hoverr {
+    display: block;
+   }
+.topText{
+    position: absolute;
+width: 1032px;
+height: 53px;
+left: 248px;
+top: 111px;
+}
+.topLine{
+    position: absolute;
+    height: 1px;
+    width: 1032px;
+    left:248px;
+    top: 164px;
+    border: 1px solid rgba(226, 226, 226, 0.4);
+    z-index: 10;
+}
+.topLine2{
+    position: absolute;
+    height: 1px;
+    width: 1032px;
+    left:248px;
+    top: 111px;
+    border: 1px solid rgba(226, 226, 226, 0.4);
+    z-index: 10;
+}
+
+.horLine{
+    position: absolute;
+top:16%;
+left:37%;
+width: 1px;
+height: 84%;
+
+border: 1px solid rgba(226, 226, 226, 0.4);
+
+}
+
+.jan17Div{
+    position: absolute;
+width: 1032px;
+height: 59px;
+left: 248px;
+top: 162px;
+}
+
+.oneLogo{
+    position: absolute;
+width: 25px;
+height: 25px;
+left: 39px;
+top: 17px;
+}
+
+.jan17{
+    position: absolute;
+left: 10.47%;
+right: 82.46%;
+top: 35.59%;
+bottom: 35.59%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #000634;
+
+}
+
+.qaAnswered{
+    position: absolute;
+left: 24.9%;
+right: 47.77%;
+top: 35.59%;
+bottom: 35.59%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #000634;
+}
+
+.respDiv{
+    position: absolute;
+left: 57.66%;
+right: 17.83%;
+top: 23.73%;
+bottom: 25.42%;
+
+background: #702DFF;
+border-radius: 4px;
+}
+
+.respText{
+    position: absolute;
+left: 58.72%;
+right: 18.8%;
+top: 37.29%;
+bottom: 37.29%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.drawLogo{
+    position: absolute;
+    width: 30px;
+    height: 29px;
+    left: 920px;
+    top: 15px;
+}
+
+.trashLogo{
+    position: absolute;
+width: 30px;
+height: 29px;
+left: 960px;
+top: 15px;
+}
+
+.jan17Div2{
+    position: absolute;
+width: 1032px;
+height: 59px;
+left: 248px;
+top: 221px;
+background: rgba(185, 192, 201, 0.15);
+}

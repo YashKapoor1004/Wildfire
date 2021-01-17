@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="/interior/fires/fires.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+
+    <title>Fires</title>
+  </head>
+  <body>
+    <div class = 'survey'>
+      <h1 class = 'surveyhead'>Wildfire Surveyers’ Portal</h1>
+      <h1 class = 'surveybody'>Design and deploy your own surveys into the Wildfire network to acquire market data.</h1>
+    </div>
+    </div>
+    <div class="host">
+      <h1 class = 'hosthead'>Wildfire Hosts’ Portal</h1>
+      <h1 class = 'hostbody'>Add survey content to your organizations’ website in order to increase your revenue.</h1>
+    </div>
+    <div class="sideBar" id="sideBar">
+      <a href="">
+        <div onclick="portal()" class="portalDiv" id="portalDiv">
+            <h1 id = 'title' class="title">Wildfire</h1>
+            <h1 id = 'subTitle' class="subTitle">Surveyer's Portal</h1>
+            <img id = 'logo' class="logo" src="/interior/fires/Group 2.svg">
+            <img class = 'arrow2' src="/interior/fires/arrow2.svg" alt="">
+          </div>    
+      </a>
+
+
+        </div>
+        <div class="buttonsDiv">
+          <a href="dashboard.hbs">
+            <div class="dashDiv" id = 'dashDiv'>
+              <img class="lDash" id="lDash" src="/interior/fires/dash.svg">
+              <h1 class="hDash" id = 'hDash'>Dashboard</h1>
+            </div>
+          </a>
+          <a href="fires.hbs">
+            <div class="firesDiv">
+              <img class="lFires" src="/interior/fires/fire.svg">
+              <h1 class="hFires">Fires</h1>
+            </div>
+          </a>
+          <a href="analytics.hbs">
+            <div class="analyticsDiv">
+              <img class="lAnalytics" src="/interior/fires/analytics.svg">
+              <h1 class="hAnalytics">Analytics</h1>
+            </div>
+          </a>
+          <a href="explore.hbs">
+            <div class="exploreDiv">
+              <img class="lExplore" src="/interior/fires/explore.svg">
+              <h1 class="hExplore">Explore</h1>
+            </div>
+          </a>
+          <a href="settings.hbs">
+            <div class="settingsDiv">
+              <img class="lSettings" src="/interior/fires/settings.svg">
+              <h1 class="hSettings">Settings</h1>
+            </div>
+          </a> 
+        </div>
+        
+          <a href="/views/bridge/login.hbs">
+            <div id = 'logout' class="logout">
+              <img class="logoutP" href = "/interior/fires/logout.svg">
+              <h1 class = 'logoutH'>Logout</h1>
+            </div>
+          </a>
+
+        <img class="profPic" src="/interior/fires/jeff.svg" alt="">
+        <h1 class="name">Jeffrey Haynes</h1>
+        <h1 class="role">Marketing Lead</h1>
+        <a>
+          <div onclick="logout()" id = 'hover' class= 'hover'>
+            <img class="dot" src="/interior/fires/dot.svg" alt="">
+            <img class="hoverr" src="/interior/fires/hoverr.svg" alt="">
+          </div>
+        </a>
+      </div>
+
+    {{!-- Top Bar --}}
+    <div class="topBar">
+
+        <h1 class="firesHead">Fires</h1>
+        <h1 class="hHOme">Home</h1>
+        <img class = 'line' src="/interior/fires/line.svg" alt="" />
+        <div class="lineHome"></div>
+        <h1 class="hSparks">Sparks</h1>
+        <div class="lineSparks"></div>
+        <h1 class="hData">Data</h1>
+        <div class="lineData"></div>
+        <h1 class="hPreferences">Preferences</h1>
+        <div class="lineSparks"></div>
+        
+        <a href="">
+          <div class="upgradeDiv">
+            <h1 class="upgrade">Upgrade</h1>
+            <img class='upgradeP' src="/interior/fires/bolt.svg" alt="">
+          </div>
+  
+        </a>
+        <a href="">  
+          <div class="chat">
+            <img class = 'chatP' src="/interior/fires/chat.svg" alt="">
+          </div>
+        </a>
+        <a href=""> 
+          <img class = 'bell' src="/interior/fires/bell.svg" alt="">
+          <img class="pfp2" src="/interior/fires/jeff.svg" alt="">
+          <img class="arroww" src = '/interior/fires/arrow.svg' alt="">
+          <img class="filter" src="/interior/fires/filter.svg" alt="">
+        </a> 
+    </div>
+    <img class = 'bar' src="/interior/fires/bar.svg" alt=>
+    <a href="">
+      <div class = 'plus'>
+        <img class ='plusimg'src="/interior/fires/plus.svg" alt="">
+      </div>
+    </a>
+    <div>
+      <h1 class = 'fire1'>COVID-19 Population Opinion Survey</h1>
+      <h1 class = 'response1'>246</h1>
+      <img class = 'prog1' src="" alt="">
+      <img class = 'goal1' src="" alt="">
+        <div class="type">
+          <h1 class = 'typeI'>800 x 800</h1>
+        </div>
+      <h1 id = 'resp1'>10:34 am</h1>
+      <img src="" alt="">
+    </div>
+
+    <input id="firenameInput" style="position: absolute; top: 20%; left: 30%;"/>
+    <input id="responsesInput"style="position: absolute; top: 25%; left: 30%;"/>
+    <input id="goalInput"style="position: absolute; top: 30%; left: 30%;"/>
+    <input id="deadlineInput"style="position: absolute; top: 35%; left: 30%;"/>
+    <input id="lastrespInput"style="position: absolute; top: 40%; left: 30%;"/>
+    <button onclick="updateFirebase()"style="position: absolute; top: 45%; left: 30%;">Update Firebase</button>
+    <button onclick="fetchData()"style="position: absolute; top: 45%; left: 50%;">Fetch Firebase</button>
+    <fire-div id="first" style="display:none;">
+      <div id="email" slot="email"></div>
+      <div id="pass" slot="password"></div>
+    </fire-div>
+
+    <div class="blackScreen"></div>
+    
+    <div class="plusAlert">
+      <h1 class="create">Create A New Fire</h1>
+      <h1 class="fireName">Fire Name</h1>
+      <h1 class="fireNameText">Enter the name of the new survey.</h1>
+      <h1 class="responseGoal">Response Goal</h1>
+      <h1 class="responseGoalText">Enter your survey responses limit.</h1>
+      <h1 class="fireType">Fire Type</h1>
+      <h1 class="fireTypeText">Choose the survey type you wish to create.</h1>
+      <input id="fireInput" class="fireInput"/>
+      <input id="responseInput" class="responseInput"/>
+      <a><div class="orangDiv"></div></a>
+      <img class="dottedOrange" src=""/>
+      <h1 class
+
+
+
+    </div>
+
+    <script src="/interior/fires/fires.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-functions.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-auth.js"></script>
+
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyBmrTAa1LnIbQeSiojCw6fT9bnas0_Rob4",
+      authDomain: "wildfire-7e594.firebaseapp.com",
+      projectId: "wildfire-7e594",
+      storageBucket: "wildfire-7e594.appspot.com",
+      messagingSenderId: "64460218098",
+      appId: "1:64460218098:web:3d795a221fec883e82ba6b",
+      measurementId: "G-GFK4PMQKEF"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const auth = firebase.auth();
+    const db = firebase.firestore();
+    db.settings({ timestampInSnapshots: true });
+  </script>
+</html>
