@@ -48,10 +48,32 @@ app.get('/settings', (req, res) => {
         title: 'Settings'
     })
 })
+app.get('/account', (req, res) => {
+    res.render('./bridge/account',  {
+        title: 'Choose Your Account'
+    })
+})
 
 app.get('/sparks', (req, res) => {
     res.render('./interior/sparks',  {
         title: 'Sparks'
+    })
+})
+
+app.get('/settings', (req, res) => {
+    res.render('./interior/settings',  {
+        title: 'Settings'
+    })
+})
+app.get('/data', (req, res) => {
+    res.render('./interior/data',  {
+        title: 'Data'
+    })
+})
+
+app.get('/host', (req, res) => {
+    res.render('./interior/host',  {
+        title: 'Host'
     })
 })
 
